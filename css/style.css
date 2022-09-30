@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f1de;
+}
+
+/* INDEX */
+/* NAVIGATION MENU */
+.header {
+    text-align: center;
+    /* background-position: center; */
+    padding: 1em;
+}
+
+.text-heading {
+    color: black;
+    text-align: center;
+}
+
+.nav_menu {
+    overflow: hidden;
+    background-color: #3d405b;
+}
+
+.nav_menu a {
+    float: left;
+    display: block;
+    color: #f4f1de;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: #f4f1de;
+    color: #3d405b;
+}
+
+/* INDEX BODY CONTENT */
+.columnA {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    text-align: justify;
+    background-color: #f2cc8f;
+}
+
+.columnA img{
+    width: 100%;
+}
+
+
+.columnB {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: #f4f1de;
+
+}
+
+.footer {
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #3d405b;
+    clear: left;
+}
+
+.footer a {
+    display: inline;
+    color: #f2cc8f;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer a:hover {
+    background-color: #f4f1de;
+    color: #3d405b;
+}
+
+/* ABOUT US */
+
+
+.author {
+    margin: 2rem;
+    padding: 1rem;
+    text-align: left;
+    background: #3d405b;
+    color: #f2cc8f;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.author img {
+    padding: 1em;
+    width: 200px;
+    margin-right: 1em;
+}
+
+.author a {
+    color: #f2cc8f;
+}
+
+h1 {
+    color: #f2cc8f;
+    font-weight: 900;
+    letter-spacing: 0px;
+    margin-bottom: 1rem;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+h2 {
+    color: #f4f1de;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.objective {
+    padding: 1em;
+    margin-top: 4em;
+}
+
+.objective p {
+    padding-left: 2em;
+}
+
+.objective ul {
+    padding-left: 2em;
+}
+
+
+p.profile {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 5rem;
+}
+
+.container-main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3rem 3rem;
+    text-align: center;
+    background: url(https://freefrontend.com/assets/img/css-hero-effects/Diagonal-Hero-Div-With-CSS-Star-Animation-Background.png);
+    /*call picture*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*picture to max height x width*/
+}
+
+.container-portfolio {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3rem 3rem;
+    text-align: center;
+    background: linear-gradient(50deg, #f2cc8f, #f4f1de);
+}
+
+.container-portfolio h1{
+    color: #3d405b;
+}
+
+.image {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #575494;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #e66465;
+}
+
+.works {
+    padding: 1rem;
+    width: 75%;
+    margin: 1rem;
+    border-radius: 2rem 0 2rem 0;
+    display: inline-block;
+    background-color: white;
+    height: auto;
+}
+
+.works img {
+    width: 100%;
+}
+
+.works p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.works ol{
+  padding: 2rem;  
+  text-align: left;
+}
+
+.works ul{
+    padding-left: 3rem;
+    text-align: left;
+}
+
+/* Table design, PORTFOLIO */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    background-color: #f2cc8f;
+    text-align: center;
+    padding: 1em;
+}
+
+th img {
+    width: 200;
+    height: 120;
+    padding: 1em;
+    background: white;
+}
+
+td {
+    padding: 2em;
+    border: 1px solid black;
+    text-align: left;
+}
+
+/* CONTACT */
+.contact_div{
+    height: 60%;
+}
+
+.contact {
+    background: linear-gradient(50deg, #f2cc8f, #f4f1de);
+    width: 40%;
+    float: left;
+    padding: 1rem;
+    margin-right: 1rem;
+    height: inherit;
+}
+
+.div_input{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+input[type=text]{
+    padding: 10px;
+    margin: 1em;
+    border: 0;
+    box-shadow:0 0 15px 4px #f2cc8f;
+    border-radius: 10px;
+    width: 40%;
+}
+
+input[type=email]{
+    padding: 10px;
+    margin: 1em;
+    border: 0;
+    box-shadow:0 0 15px 4px #f2cc8f;
+    border-radius: 10px;
+    height: inherit;
+    width: 40%;
+}
+
+select{
+    padding: 10px;
+    margin: 1em;
+    border: 0;
+    box-shadow:0 0 15px 4px #f2cc8f;
+    border-radius: 10px;
+    height: inherit;
+    width: 40%;
+}
+
+input[type=submit]{
+    padding: 10px;
+    margin: 1em;
+    border: 0;
+    box-shadow:0 0 15px 4px #f2cc8f;
+    border-radius: 10px;
+    height: inherit;
+    appearance:none;
+    -webkit-appearance:none;
+  
+    /* usual styles */
+    padding:10px;
+    border:none;
+    background-color:#3d405b;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    width: 40%;
+}
+
+input[type=submit]:hover{
+    background-color: #f2cc8f;
+}
+
+input[type=submit]:focus{
+    background-color: #3d405b;
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #f2cc8f;
+    transition: 0.7s;
+}
